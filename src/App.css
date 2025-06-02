@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #dde8f8;
+  margin :0;
+}
+
+h1{
+  font-size: 48px;
+  text-align: center;
+  padding-top: 10%;
+}
+
+h2{
+  font-size: 32px;
+  text-align: center;
+}
+
+h3{
+  font-size: 24px;
+  text-align: center;
+  padding-top: 1%;
+}
+
+h4{
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  top: 10px;
+  position:fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  margin:0 auto;
+}
+
+h5{
+  font-size: 16px;
+  padding-left: 15px;
+}
