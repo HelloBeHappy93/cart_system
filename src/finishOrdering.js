@@ -1,7 +1,7 @@
 export default function FinishPage(){
     return(
         <h1>
-            hello
+            完成訂單
         </h1>
     );
 }
