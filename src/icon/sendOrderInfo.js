@@ -58,7 +58,7 @@ export default function SendBack({ openSnackBar, setOpenSnackBar }) {
       console.log("第二步：儲存完整訂單資料...", completeOrderData);
 
       // 4. 第二步：儲存完整訂單
-      const saveResponse = await fetch("http://localhost/cart_system/saveCompleteOrder.php", {
+      const saveResponse = await fetch("http://mycart2025.infinityfreeapp.com/cart_system/saveCompleteOrder.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
