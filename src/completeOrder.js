@@ -75,7 +75,7 @@ export default function CompleteOrder(){
   
     if (!cartMealType) return; // ❗️如果沒選擇就不送 request
   
-    fetch("http://localhost/cart_system/getTimeSlot.php", {
+    fetch("http://mycart2025.infinityfreeapp.com/cart_system/getTimeSlot.php", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
