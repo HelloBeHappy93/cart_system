@@ -15,7 +15,7 @@ export default function Cart(props) {
   const navigate = useNavigate();
 
   useEffect(() => {
-  fetch("http://localhost/cart_system/getProduct.php")
+  fetch("http://mycart2025.infinityfreeapp.com/cart_system/getProduct.php")
     .then((res) => res.json())
     .then((data) => {
       setProduct(data); // 把資料存進 state 中
