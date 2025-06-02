@@ -39,7 +39,7 @@ export default function ChooseCart() {
   const [carts, setcarts] = useState([]);
 
   useEffect(() => {
-  fetch("http://localhost/cart_system/getCartName.php")
+  fetch("http://mycart2025.infinityfreeapp.com/cart_system/getCartName.php")
     .then((res) => res.json())
     .then((data) => {
       setcarts(data); // 把資料存進 state 中
