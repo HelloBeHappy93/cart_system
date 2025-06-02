@@ -19,7 +19,7 @@ export default function SendBack({ openSnackBar, setOpenSnackBar }) {
 
       // 2. 第一步：生成訂單編號
       console.log("第一步：生成訂單編號...");
-      const orderResponse = await fetch("http://localhost/cart_system/generateOrderId.php", {
+      const orderResponse = await fetch("http://mycart2025.infinityfreeapp.com/cart_system/generateOrderId.php", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
